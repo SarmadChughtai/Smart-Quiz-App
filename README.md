@@ -1,4 +1,4 @@
-# Smart Quiz App 🧠
+# Smart Quiz App 
 
 A real-time, multiplayer quiz application built with Flutter and Firebase. Hosts can create custom quiz rooms with their own question banks, invite players via a room code, and monitor live progress — while players compete, answer questions against the clock, and view detailed results.
 
@@ -11,33 +11,33 @@ A real-time, multiplayer quiz application built with Flutter and Firebase. Hosts
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🔐 Authentication
+###  Authentication
 - Email/password sign-up and login
 - Google Sign-In integration
 - "Remember Me" persistent sessions
 - Editable user profiles with education, experience, and profile picture (Firebase Storage)
 
-### 🎮 Multiplayer Quiz Rooms
+###  Multiplayer Quiz Rooms
 - **Host a Room** — Create a room with a custom question bank, configurable time limit, and rules (allow going back, require all answers before submit)
 - **Join a Room** — Join any active room using a 6-digit room code
 - **Live Lobby** — Real-time player list synced via Firestore streams before the game starts
 - **Host Monitor** — Hosts can watch player progress live as the quiz is in progress
 
-### 📝 Quiz Experience
+###  Quiz Experience
 - Timed questions with an on-screen countdown
 - Category-based quiz banks pulled from Firestore
 - Score tracking: correct, incorrect, and skipped question counts
 - Detailed result breakdown at the end of each session
 
-### 📊 History & Analytics
+###  History & Analytics
 - Hosts can view a full history of rooms they've created
 - Drill into any past room to review its questions and results
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 smart_app_quiz/
@@ -72,7 +72,7 @@ smart_app_quiz/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -85,7 +85,7 @@ smart_app_quiz/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -122,7 +122,7 @@ flutter run
 
 ---
 
-## 🗃️ Firestore Data Structure
+##  Firestore Data Structure
 
 ```
 quizzes/
@@ -144,7 +144,7 @@ users/
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Push notifications when a room starts
 - [ ] Leaderboards across quiz categories
@@ -153,7 +153,7 @@ users/
 
 ---
 
-## 👤 Author
+##  Author
 
 **Muhammad Sarmad Chughtai**
 SAP ID: 54915
